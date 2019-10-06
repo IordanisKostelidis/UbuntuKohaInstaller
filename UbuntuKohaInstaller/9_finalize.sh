@@ -5,7 +5,7 @@ if [ "$EUID" -ne 0 ]; then
   exit
 fi
 
-# Install MariadB
-apt install mariadb-server -y
+apt clean
+apt autoclean
 
 exit

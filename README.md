@@ -5,9 +5,9 @@ Install Koha on Ubuntu Server easy with those scripts
 * Ubuntu LTS Server
     * Tested on [Ubuntu Server 18.04 LTS](https://ubuntu.com)
 * zip and unzip application
-    * apt-get install zip unzip
+    * sudo apt-get install zip unzip
 * dos2unix application
-    * apt-get install dos2unix
+    * sudo apt-get install dos2unix
 
 # Notes
 * Currently supports only one site by default
@@ -18,8 +18,8 @@ Install Koha on Ubuntu Server easy with those scripts
         * ./configKoha.sh
 
 # Installation guide
-* wget [https://github.com/IordanisKostelidis/UbuntuKohaInstaller/releases/download/19.10.06.1/UbuntuKohaInstaller-19.10.06.1-RELEASE.zip](https://github.com/IordanisKostelidis/UbuntuKohaInstaller/releases/download/19.10.06.1/UbuntuKohaInstaller-19.10.06.1-RELEASE.zip)
-* unzip UbuntuKohaInstaller-19.10.06.1-RELEASE.zip
+* wget [https://github.com/IordanisKostelidis/UbuntuKohaInstaller/releases/download/19.10.06.2/UbuntuKohaInstaller-19.10.06.2-RELEASE.zip](https://github.com/IordanisKostelidis/UbuntuKohaInstaller/releases/download/19.10.06.2/UbuntuKohaInstaller-19.10.06.2-RELEASE.zip)
+* unzip UbuntuKohaInstaller-19.10.06.2-RELEASE.zip
 * cd UbuntuKohaInstaller
 * dos2unix *.sh
 * nano ./config/koha/koha-sites.conf
@@ -40,3 +40,4 @@ Install Koha on Ubuntu Server easy with those scripts
 * ./6_configKoha.sh
 * ./7_configMariaDB.sh
 * ./8_configServer.sh
+* ./9_finalize.sh
