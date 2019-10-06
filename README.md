@@ -18,8 +18,8 @@ Install Koha on Ubuntu Server easy with those scripts
         * ./configKoha.sh
 
 # Installation guide
-* wget [https://github.com/IordanisKostelidis/UbuntuKohaInstaller/releases/download/19.10.06/UbuntuKohaInstaller-19.10.06-RELEASE.zip](https://github.com/IordanisKostelidis/UbuntuKohaInstaller/releases/download/19.10.06/UbuntuKohaInstaller-19.10.06-RELEASE.zip)
-* unzip ubuntu-koha-installer-19.10.06-RELEASE.zip
+* wget [https://github.com/IordanisKostelidis/UbuntuKohaInstaller/releases/download/19.10.06.1/UbuntuKohaInstaller-19.10.06.1-RELEASE.zip](https://github.com/IordanisKostelidis/UbuntuKohaInstaller/releases/download/19.10.06.1/UbuntuKohaInstaller-19.10.06.1-RELEASE.zip)
+* unzip UbuntuKohaInstaller-19.10.06.1-RELEASE.zip
 * cd UbuntuKohaInstaller
 * dos2unix *.sh
 * nano ./config/koha/koha-sites.conf
