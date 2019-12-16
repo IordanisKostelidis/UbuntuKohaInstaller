@@ -11,7 +11,4 @@ cp ./config/hosts/hosts /etc/hosts
 chmod --reference=/etc/hosts_backup /etc/hosts
 dos2unix /etc/hosts
 
-# Restart Apache
-service apache2 restart
-
 exit

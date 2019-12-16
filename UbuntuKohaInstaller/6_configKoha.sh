@@ -28,13 +28,4 @@ a2ensite library
 # Restart Apache
 service apache2 restart
 
-# Update hosts file
-mv /etc/hosts /etc/hosts_backup
-cp ./config/hosts/hosts /etc/hosts
-chmod --reference=/etc/hosts_backup /etc/hosts
-dos2unix /etc/hosts
-
-# Restart Apache
-service apache2 restart
-
 exit

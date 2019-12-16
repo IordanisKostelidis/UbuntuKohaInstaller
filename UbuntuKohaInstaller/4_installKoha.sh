@@ -8,8 +8,4 @@ fi
 # Install Koha
 apt-get install -y koha-common
 
-# Clean packages
-apt-get clean
-apt-get autoclean
-
 exit

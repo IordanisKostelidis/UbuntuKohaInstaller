@@ -5,6 +5,7 @@ if [ "$EUID" -ne 0 ]; then
   exit
 fi
 
+service apache2 restart
 apt clean
 apt autoclean
 
